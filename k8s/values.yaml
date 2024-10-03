@@ -1,0 +1,13 @@
+fernetKey: NUk1V2tjNzJFdFhYYnB5UXpNOUEyRDVzY0txbVBzVnM=
+webserverSecretKey: NUk1V2tjNzJFdFhYYnB5UXpNOUEyRDVzY0txbVBzVnM=
+executor: "KubernetesExecutor"
+
+dags:
+  gitSync:
+    enabled: true
+    repo: https://github.com/Nitin-Flavier13/KubernetesDataEng.git
+    branch: master
+    rev: HEAD 
+    depth: 1 
+    maxFailures: 0
+    subPath: "dags"
