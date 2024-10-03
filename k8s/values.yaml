@@ -1,5 +1,5 @@
-fernetKey: NUk1V2tjNzJFdFhYYnB5UXpNOUEyRDVzY0txbVBzVnM=
-webserverSecretKey: NUk1V2tjNzJFdFhYYnB5UXpNOUEyRDVzY0txbVBzVnM=
+fernetKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+webserverSecretKey: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 executor: "KubernetesExecutor"
 
 dags:
